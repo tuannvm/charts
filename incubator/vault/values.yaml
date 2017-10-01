@@ -5,7 +5,7 @@ replicaCount: 1
 image:
   repository: vault
   tag: 0.7.3
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 service:
   name: vault
   type: ClusterIP
